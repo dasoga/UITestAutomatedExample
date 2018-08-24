@@ -29,8 +29,17 @@ class EasyAnchorsUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let cell2StaticText = app.staticTexts["Cell - 2"]
+        cell2StaticText.tap()
+        
+        let backButton = app.navigationBars["EasyAnchors.DetailView"].buttons["Back"]
+        backButton.tap()
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["Cell - 2"]/*[[".cells.staticTexts[\"Cell - 2\"]",".staticTexts[\"Cell - 2\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        cell2StaticText.tap()
+        backButton.tap()
+        
     }
     
 }

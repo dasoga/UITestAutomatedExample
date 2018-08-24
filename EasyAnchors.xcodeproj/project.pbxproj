@@ -40,8 +40,6 @@
 		2C89843F202124FF00E0D8B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C898442202124FF00E0D8B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C898444202124FF00E0D8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C89844D2021250000E0D8B1 /* EasyAnchorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAnchorsTests.swift; sourceTree = "<group>"; };
-		2C89844F2021250000E0D8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				2C898437202124FF00E0D8B1 /* EasyAnchors */,
-				2C89844C2021250000E0D8B1 /* EasyAnchorsTests */,
 				2C47287521305B78005D166C /* EasyAnchorsUITests */,
 				2C898436202124FF00E0D8B1 /* Products */,
 			);
@@ -103,15 +100,6 @@
 				2C47286E2130554C005D166C /* DetailViewController.swift */,
 			);
 			path = EasyAnchors;
-			sourceTree = "<group>";
-		};
-		2C89844C2021250000E0D8B1 /* EasyAnchorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C89844D2021250000E0D8B1 /* EasyAnchorsTests.swift */,
-				2C89844F2021250000E0D8B1 /* Info.plist */,
-			);
-			path = EasyAnchorsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
