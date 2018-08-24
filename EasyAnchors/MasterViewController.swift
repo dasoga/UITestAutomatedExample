@@ -37,7 +37,7 @@ extension MasterViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let detailController = mainStoryboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-        detailController.textToShow = "Cell - \(indexPath.row)"        
+        detailController.textToShow = "Cell - \(indexPath.row)"
         navigationController?.pushViewController(detailController, animated: true)
     }
 }
